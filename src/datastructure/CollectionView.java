@@ -18,8 +18,9 @@ public static void main(String[] args) {
         map.put(5, "San Jose");
         map.put(6, "Seattle");
 
-
-
-    }
+        System.out.println("Initial Mappings are: " + map);
+        System.out.println("The collection is: " + map.values());
+}
 
 }
+

@@ -9,5 +9,20 @@ public class Factorial {
          *
          */
 
+
+        {
+            int num = 5;
+            System.out.println("getFactorial of " + num
+                    + " is " + factorial(5));
+        }
+    }
+    public static int factorial( int numero ) {
+        int fact = 1;
+        for( int i = 1; i <= numero; i++ ) {
+            fact *= i;
+        }
+
+        return fact;
     }
 }
+

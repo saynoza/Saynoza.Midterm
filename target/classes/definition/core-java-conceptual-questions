@@ -83,17 +83,9 @@ method overloading.
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
-
 What is final, finally and finalize?
-Final is an access modifier, finally is the block in Exception Handling and finalize is the method
-of object class.
-
 What is a constructor ?
-A constructor is a special method that is used to initialize objects.
-
 Can we have multiple constructors in a class?
-A class can have multiple constructors that assign the fields in different ways.
-
 If we don't have a constructor declared, what is called during the object creation?
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
@@ -105,80 +97,34 @@ JAR stands for Java ARchive. It is a file format based on the popular zip file f
 
 What is the difference between JDK and JVM?
 What is the difference between JVM and JRE?
-
 What is compile time and run time?
-Runtime  is the period of time when a program is running and generally occurs after compile time.
-Compile time is the period when the programming code is converted to the machine code.
-
 What is heap?
-The area pf memory used to store objects initiated by applications running on the JVM is called heap.
-
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
 What is Singleton class?
 What is Serialization and Deserialization?
 when to use transient variable in java?
-
 Difference between while and do..while loop?
-While checks the condition then executes the code; do... while first executes and then
-checks.
-
 What is Enum?
-Enum is a special type that enables for a variable to be a set of predefined constants.
-
 What is Iterator?
-Iterator is an object that can be used to loop through collections.
-
 Which one will take more memory, an int or Integer?
-Int takes 4 bytes while Integer takes  16 bytes, thus, Integer takes more space.
-
 Why is String Immutable in Java?
-The String is immutable because of the security, synchroization and concurrency, caching,
-and class loading.
-
 What is constructor chaining in Java?
-Constructor chaining refers to the ability to call a constructor inside another constructor.
-
 The difference between Serial and Parallel Garbage Collector?
-Serial garbage collector uses a single thread for garbage collection process; parallel
-garbage collector uses multiple threads for the garbage collection.
-
 What is JIT stands for?
-Just In Time
-
 Explain Java Heap space and Garbage collection?
-
 Can you guarantee the garbage collection process?
-Garbage collection does not guarantee that a program will not run out of memory.
-
 What is the difference between stack and heap in Java?
-Heap space is used throughout the application. Stack is only used for the method.
-
 What is reflection in java and why is it useful?
-Reflection allows an executing program to examine or "introspect" upon itself, and manipulate
-internal properties the program.
-
 what is multithreading in java?
-It is a process of executing several threads simultaneously for maximum utilization.
-
 What is the use of synchronization in Java?
-Synchronization is the capability to control the access of multiple threads to any shared
-resource.
-
 What is Framework?
-It is the platform of pre-written codes to develop Java applications.
-
 What are the testing Framework available in java?
-
 Difference between jUnit and testNG?
-TestNG is a testing framework that is an upgraded option for running tests. JUnit does not
-support to run parallel tests.
-
 What are the dependencies for this project?
 what is dependency injection in java?
-
 What is static binding and dynamic binding?
-Static binding uses type information for binding. Dynamic uses objects to resolve binding.
+
 
 
 
