@@ -55,10 +55,18 @@ and the performance is slow. In HashMap the Null is allowed while it is not allo
 
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
+HashMap uses multiple buckets and each bucket point to a Singly Linked List where the entries
+(nodes) are stored. Once the bucket is identified by the hash function using hashcode, the
+hashCode is used to check if there is already a key with the same hashCode or not in the
+bucket.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
 What are the different ways of copying an array into another array?
 What is difference between an array and a linked list?
+
 What is DFS and BFS?
+DFS stands for Depth First Search and it uses Stack data structure. BFS stands for Breadth
+First Search and Queue data structure is used.
 
 What is Recursion?
 Recursion is a process in which a method calls itself continuously.
